@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: steelblue;
+}
+
+.languageButtons {
+    display: flex;
+    justify-content: flex-end;
+}
+.title{
+    margin-left: 6rem;
+}

@@ -1,0 +1,18 @@
+.jar {
+    position: absolute;
+    left: 0; /* Initial position on the left side */
+    /* Add other jar styles (size, background image, etc.) */
+    animation: moveJar 5s linear infinite; /* Animation for moving */
+    animation-iteration-count: 1; /* Play the animation only once */
+}
+
+@keyframes moveJar {
+    from {
+        left: 0; /* Starting from the left side */
+        display: block; /* Show the jar at the start */
+    }
+    to {
+        left: 100%; /* Moving to the right side (100% of container's width) */
+        display: none; /* Hide the jar when the animation is complete */
+    }
+}
