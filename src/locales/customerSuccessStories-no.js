@@ -15,14 +15,14 @@ const customerData = [
     alt: "Bilde av den andre fornøyde kunde",
     title: "Denne tjenesten er revolusjonerende!",
     description:
-      "Jeg brakk armen for noen uker siden og åpnet en vanskelig krukke med oliven, og nå har jeg hatt lyst på oliven igjen, mor og far er ekte livreddere!",
+      "Jeg brakk armen for noen uker siden når jeg åpnet en vanskelig krukke med oliven, og nå når jeg har hatt lyst på oliven igjen, er «Ma og Pa’s» ekte livreddere!",
   },
   {
     image: customerPicture3,
     alt: "Bilde av den tredje fornøyde kunde",
     title: "Krukkekonspirasjoner stoppet meg nesten fra å nyte syltede egg!",
     description:
-      "Krukkeselskapene vil ikke at du skal åpne glassene deres, men ingenting av det betyr noe nå, mor og far er ustoppelige!",
+      "Krukkeselskapene vil ikke at du skal åpne glassene deres, men ingenting av det betyr noe nå, «Ma og Pa’s» er ustoppelige!",
   },
 ];
 

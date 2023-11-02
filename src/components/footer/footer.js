@@ -10,6 +10,12 @@ function Footer() {
       <p>
         &copy; {new Date().getFullYear()} {t("legal-text")}
       </p>
+        <p>
+            {t("read-more")} <a href="https://www.datatilsynet.no/rettigheter-og-plikter/den-registrertes-rettigheter/">{t("here")}</a>
+        </p>
+        <p>
+            {t("send-email")} <a href="mailto: MaAndPa@rayfuse.no">MaAndPa@rayfuse.no</a>
+        </p>
     </footer>
   );
 }

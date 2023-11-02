@@ -2,7 +2,7 @@ const path = require('path');
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
-    mode: 'development', // Set the mode to 'development'
+    mode: 'development',
     entry: './src/index.js',
     output: {
         filename: '[name].[contenthash].js',
@@ -48,7 +48,6 @@ module.exports = {
         ],
     },
     plugins: [
-        // ... other plugins ...
         new BundleAnalyzerPlugin(),
     ],
 };

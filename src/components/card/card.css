@@ -36,7 +36,9 @@
         max-width: 33.33%;
         padding: 0.5rem;
     }
-    .card-title,
+    .card-title{
+        font-size: 1rem;
+    }
     .card-description {
         text-align: left;
     }

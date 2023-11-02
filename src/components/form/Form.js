@@ -20,13 +20,14 @@ const FieldWithLabel = ({ label, children }) => (
 );
 
 const FormField = ({ label, field, type, formik }) => {
+  const { t } = useTranslation();
   const fieldName = field.name;
   const hasError = formik.touched[fieldName] && formik.errors[fieldName];
 
   return (
     <FieldWithLabel label={label}>
       <InputField field={field} type={type} />
-      {hasError && <ErrorMessage message={formik.errors[fieldName]} />}
+      {hasError && <ErrorMessage message={t(formik.errors[fieldName])} />}
     </FieldWithLabel>
   );
 };

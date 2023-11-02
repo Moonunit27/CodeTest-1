@@ -1,14 +1,17 @@
 import * as Yup from "yup";
+import validationMessagesEn from "../../locales/en.json";
+import validationMessagesNo from "../../locales/no.json";
+
 
 const validationSchema = Yup.object({
-  name: Yup.string().required("Name is required"),
+  name: Yup.string().required("error-required"),
   email: Yup.string()
-    .email("Invalid email format")
-    .required("Email is required"),
-  street: Yup.string().required("Street is required"),
-  city: Yup.string().required("City is required"),
-  postalCode: Yup.string().required("Postal Code is required"),
-  country: Yup.string().required("Country is required"),
+    .email("error-invalid-email")
+    .required("error-required"),
+  street: Yup.string().required("error-required"),
+  city: Yup.string().required("error-required"),
+  postalCode: Yup.string().required("error-required"),
+  country: Yup.string().required("error-required"),
 });
 
 export default validationSchema;
